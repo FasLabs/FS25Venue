@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue Research Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Venue Research Form</h1>
+        <form id="venueForm">
+            <div class="form-group">
+                <label for="venue-url">Venue URL:</label>
+                <input type="url" id="venue-url" name="venue-url" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bedrooms">Number of Bedrooms:</label>
+                <select id="bedrooms" name="bedrooms" required>
+                    <option value="">Select number of bedrooms</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="capacity">Maximum Capacity:</label>
+                <select id="capacity" name="capacity" required>
+                    <option value="">Select maximum capacity</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Save Venue</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
