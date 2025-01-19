@@ -70,6 +70,7 @@ textarea:focus {
 textarea {
   resize: vertical;
   min-height: 100px;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 button {
